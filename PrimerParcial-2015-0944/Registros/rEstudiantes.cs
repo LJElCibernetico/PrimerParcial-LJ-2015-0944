@@ -7,18 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace PrimerParcial_2015_0944
+namespace PrimerParcial_2015_0944.Registros
 {
-    public partial class Menu : Form
+    public partial class rEstudiantes : Form
     {
-        public Menu()
+        public rEstudiantes()
         {
             InitializeComponent();
-        }
-
-        private void estudiantesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
