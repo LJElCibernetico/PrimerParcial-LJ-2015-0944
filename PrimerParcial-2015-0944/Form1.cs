@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PrimerParcial_2015_0944.Registros;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,7 +19,14 @@ namespace PrimerParcial_2015_0944
 
         private void estudiantesToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            rEstudiantes re = new rEstudiantes();
+            re.Show();
+        }
 
+        private void notasDeCreditoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rNotasDeCredito rn = new rNotasDeCredito();
+            rn.Show();
         }
     }
 }

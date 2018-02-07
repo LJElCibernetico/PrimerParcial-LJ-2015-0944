@@ -82,6 +82,12 @@
     <Compile Include="Registros\rEstudiantes.Designer.cs">
       <DependentUpon>rEstudiantes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Registros\rNotasDeCredito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registros\rNotasDeCredito.Designer.cs">
+      <DependentUpon>rNotasDeCredito.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

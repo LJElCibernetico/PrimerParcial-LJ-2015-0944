@@ -72,6 +72,7 @@
             this.notasDeCreditoToolStripMenuItem.Name = "notasDeCreditoToolStripMenuItem";
             this.notasDeCreditoToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.notasDeCreditoToolStripMenuItem.Text = "Notas de Credito";
+            this.notasDeCreditoToolStripMenuItem.Click += new System.EventHandler(this.notasDeCreditoToolStripMenuItem_Click);
             // 
             // consultasToolStripMenuItem
             // 

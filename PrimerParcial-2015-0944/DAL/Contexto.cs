@@ -9,7 +9,7 @@ namespace PrimerParcial_2015_0944.DAL
 {
     public class Contexto : DbContext
     {
-        public DbSet<NotasDeCredito> Pago { get; set; }
+        public DbSet<NotasDeCredito> Nota { get; set; }
 
         public Contexto() : base("ConStr")
         {

@@ -45,7 +45,7 @@
             // Nombre
             // 
             this.Nombre.AutoSize = true;
-            this.Nombre.Location = new System.Drawing.Point(6, 64);
+            this.Nombre.Location = new System.Drawing.Point(39, 64);
             this.Nombre.Name = "Nombre";
             this.Nombre.Size = new System.Drawing.Size(49, 13);
             this.Nombre.TabIndex = 0;
@@ -54,7 +54,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 26);
+            this.label2.Location = new System.Drawing.Point(39, 26);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 13);
             this.label2.TabIndex = 1;
@@ -62,14 +62,14 @@
             // 
             // estudiantesIDtextBox
             // 
-            this.estudiantesIDtextBox.Location = new System.Drawing.Point(82, 26);
+            this.estudiantesIDtextBox.Location = new System.Drawing.Point(115, 26);
             this.estudiantesIDtextBox.Name = "estudiantesIDtextBox";
-            this.estudiantesIDtextBox.Size = new System.Drawing.Size(76, 20);
+            this.estudiantesIDtextBox.Size = new System.Drawing.Size(80, 20);
             this.estudiantesIDtextBox.TabIndex = 2;
             // 
             // nombrestextBox
             // 
-            this.nombrestextBox.Location = new System.Drawing.Point(82, 64);
+            this.nombrestextBox.Location = new System.Drawing.Point(115, 64);
             this.nombrestextBox.Name = "nombrestextBox";
             this.nombrestextBox.Size = new System.Drawing.Size(131, 20);
             this.nombrestextBox.TabIndex = 3;
@@ -77,7 +77,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 99);
+            this.label1.Location = new System.Drawing.Point(39, 99);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 4;
@@ -86,7 +86,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 133);
+            this.label3.Location = new System.Drawing.Point(39, 133);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 5;
@@ -94,14 +94,14 @@
             // 
             // apellidostextBox
             // 
-            this.apellidostextBox.Location = new System.Drawing.Point(82, 96);
+            this.apellidostextBox.Location = new System.Drawing.Point(115, 96);
             this.apellidostextBox.Name = "apellidostextBox";
             this.apellidostextBox.Size = new System.Drawing.Size(131, 20);
             this.apellidostextBox.TabIndex = 6;
             // 
             // matriculatextBox
             // 
-            this.matriculatextBox.Location = new System.Drawing.Point(83, 130);
+            this.matriculatextBox.Location = new System.Drawing.Point(116, 130);
             this.matriculatextBox.Name = "matriculatextBox";
             this.matriculatextBox.Size = new System.Drawing.Size(130, 20);
             this.matriculatextBox.TabIndex = 7;
@@ -110,7 +110,7 @@
             // 
             this.guardarbutton.Image = global::PrimerParcial_2015_0944.Properties.Resources.Save_as_37111;
             this.guardarbutton.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.guardarbutton.Location = new System.Drawing.Point(129, 199);
+            this.guardarbutton.Location = new System.Drawing.Point(132, 177);
             this.guardarbutton.Name = "guardarbutton";
             this.guardarbutton.Size = new System.Drawing.Size(63, 59);
             this.guardarbutton.TabIndex = 8;
@@ -122,7 +122,7 @@
             // 
             this.nuevobutton.Image = global::PrimerParcial_2015_0944.Properties.Resources.New_File_36861;
             this.nuevobutton.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.nuevobutton.Location = new System.Drawing.Point(39, 199);
+            this.nuevobutton.Location = new System.Drawing.Point(42, 177);
             this.nuevobutton.Name = "nuevobutton";
             this.nuevobutton.Size = new System.Drawing.Size(68, 59);
             this.nuevobutton.TabIndex = 9;
@@ -134,7 +134,7 @@
             // 
             this.eliminarbutton.Image = global::PrimerParcial_2015_0944.Properties.Resources.delete_remove_page_document_16678;
             this.eliminarbutton.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.eliminarbutton.Location = new System.Drawing.Point(209, 199);
+            this.eliminarbutton.Location = new System.Drawing.Point(212, 177);
             this.eliminarbutton.Name = "eliminarbutton";
             this.eliminarbutton.Size = new System.Drawing.Size(62, 59);
             this.eliminarbutton.TabIndex = 10;
@@ -146,7 +146,7 @@
             // 
             this.buscarbutton.Image = global::PrimerParcial_2015_0944.Properties.Resources.preview_search_find_locate_1551;
             this.buscarbutton.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.buscarbutton.Location = new System.Drawing.Point(165, 12);
+            this.buscarbutton.Location = new System.Drawing.Point(201, 22);
             this.buscarbutton.Name = "buscarbutton";
             this.buscarbutton.Size = new System.Drawing.Size(73, 34);
             this.buscarbutton.TabIndex = 11;
