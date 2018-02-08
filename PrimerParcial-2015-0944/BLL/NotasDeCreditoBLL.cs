@@ -11,7 +11,7 @@ namespace PrimerParcial_2015_0944.BLL
 {
     public class NotasDeCreditoBLL
     {
-        public static bool Guardar(NotasDeCredito id)
+        public static bool Guardar(Estudiantes id)
         {
             bool paso = false;
 
@@ -33,7 +33,7 @@ namespace PrimerParcial_2015_0944.BLL
             return paso;
         }
 
-        public static bool Modificar(NotasDeCredito id)
+        public static bool Modificar(Estudiantes id)
         {
             bool paso = false;
 
@@ -55,9 +55,9 @@ namespace PrimerParcial_2015_0944.BLL
 
         }
 
-        public static List<NotasDeCredito> GetList(Expression<Func<NotasDeCredito, bool>> criterioBusqueda)
+        public static List<Estudiantes> GetList(Expression<Func<Estudiantes, bool>> criterioBusqueda)
         {
-            List<NotasDeCredito> t = new List<NotasDeCredito>();
+            List<Estudiantes> t = new List<Estudiantes>();
             try
             {
                 Contexto contex = new Contexto();

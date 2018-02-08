@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.Nombre = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.estudiantesIDtextBox = new System.Windows.Forms.TextBox();
@@ -40,6 +41,8 @@
             this.nuevobutton = new System.Windows.Forms.Button();
             this.eliminarbutton = new System.Windows.Forms.Button();
             this.buscarbutton = new System.Windows.Forms.Button();
+            this.mostrarerrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.mostrarerrorProvider)).BeginInit();
             this.SuspendLayout();
             // 
             // Nombre
@@ -117,6 +120,7 @@
             this.guardarbutton.Text = "Guardar";
             this.guardarbutton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.guardarbutton.UseVisualStyleBackColor = true;
+            this.guardarbutton.Click += new System.EventHandler(this.guardarbutton_Click);
             // 
             // nuevobutton
             // 
@@ -129,6 +133,7 @@
             this.nuevobutton.Text = "Nuevo";
             this.nuevobutton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.nuevobutton.UseVisualStyleBackColor = true;
+            this.nuevobutton.Click += new System.EventHandler(this.nuevobutton_Click);
             // 
             // eliminarbutton
             // 
@@ -141,6 +146,7 @@
             this.eliminarbutton.Text = "Eliminar";
             this.eliminarbutton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.eliminarbutton.UseVisualStyleBackColor = true;
+            this.eliminarbutton.Click += new System.EventHandler(this.eliminarbutton_Click);
             // 
             // buscarbutton
             // 
@@ -153,6 +159,11 @@
             this.buscarbutton.Text = "Buscar";
             this.buscarbutton.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.buscarbutton.UseVisualStyleBackColor = true;
+            this.buscarbutton.Click += new System.EventHandler(this.buscarbutton_Click);
+            // 
+            // mostrarerrorProvider
+            // 
+            this.mostrarerrorProvider.ContainerControl = this;
             // 
             // rEstudiantes
             // 
@@ -173,6 +184,7 @@
             this.Controls.Add(this.Nombre);
             this.Name = "rEstudiantes";
             this.Text = "Registros de Estudiantes";
+            ((System.ComponentModel.ISupportInitialize)(this.mostrarerrorProvider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -192,5 +204,6 @@
         private System.Windows.Forms.Button nuevobutton;
         private System.Windows.Forms.Button eliminarbutton;
         private System.Windows.Forms.Button buscarbutton;
+        private System.Windows.Forms.ErrorProvider mostrarerrorProvider;
     }
 }

@@ -9,19 +9,19 @@ namespace PrimerParcial_2015_0944.Entidades
     public class NotasDeCredito
     {
         [Key]
-        int notaID;
-        DateTime fecha;
-        int estudianteID;
-        String observacion;
-        int montoAsignaturas;
-        int pctBeca;
-        int monto;
+        public int notaID;
+        public string fecha;
+        public int estudianteID;
+        public String observacion;
+        public int montoAsignaturas;
+        public int pctBeca;
+        public int monto;
 
-        public NotasDeCredito(int notaID, DateTime fecha, int estudianteID, string observacion, int montoAsignaturas, int pctBeca, int monto)
+        public NotasDeCredito(int notaID, DateTime fecha, int EstudianteID, string observacion, int montoAsignaturas, int pctBeca, int monto)
         {
             this.notaID = notaID;
             this.fecha = fecha;
-            this.estudianteID = estudianteID;
+            this.estudianteID = EstudianteID;
             this.observacion = observacion;
             this.montoAsignaturas = montoAsignaturas;
             this.pctBeca = pctBeca;
