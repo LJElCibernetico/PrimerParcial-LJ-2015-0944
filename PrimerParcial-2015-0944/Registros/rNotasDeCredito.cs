@@ -19,21 +19,21 @@ namespace PrimerParcial_2015_0944.Registros
             InitializeComponent();
         }
 
-        private void buttonRegistrar_Click(object sender, EventArgs e)
+        /*private void buttonRegistrar_Click(object sender, EventArgs e)
         {
             NotasDeCredito nc = new NotasDeCredito();
-            if (notaIDtextBox.Text == String.Empty || fechadateTimePicker.Text == String.Empty || estudianteIDtextBox.Text == String.Empty || nombretextBox.Text == String.Empty || montoasignaturasnumericUpDown.Text == String.Empty || porcientobecatextBox.Text == String.Empty || )
+            if (notaIDtextBox.Text == String.Empty || fechadateTimePicker.Text == String.Empty || estudianteIDtextBox.Text == String.Empty || nombretextBox.Text == String.Empty || montoasignaturasnumericUpDown.Text == String.Empty || porcientobecatextBox.Text == String.Empty )
                 mostrarerrorProvider.SetError(notaIDtextBox, "Recuerde No dejar Campos Vacios");
             else
                 nc.notaID = 0;
                 nc.fecha = fechadateTimePicker.Text;
                 nc.estudianteID = int.Parse(estudianteIDtextBox.Text);
                 nc.montoAsignaturas = int.Parse(montoasignaturasnumericUpDown.Text);
-            if (NotasDeCreditoBLL.Guardar(p))
+            if (NotasDeCreditoBLL.Guardar(nc))
                 MessageBox.Show("Acaba de Registrar su Nota de Credito");
             else
                 MessageBox.Show("No se pudo registrar su Nota de Credito");
-        }
+        }*/
 
         private void buttonNuevo_Click(object sender, EventArgs e)
         {

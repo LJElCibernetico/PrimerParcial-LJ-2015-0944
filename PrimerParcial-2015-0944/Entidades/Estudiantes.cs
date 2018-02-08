@@ -25,7 +25,7 @@ namespace PrimerParcial_2015_0944.Entidades
             this.estudianteID = 0;
             this.nombres = String.Empty;
             this.apellidos = String.Empty;
-            this.matricula = 0;
+            this.matricula = String.Empty;
         }
     }
 }

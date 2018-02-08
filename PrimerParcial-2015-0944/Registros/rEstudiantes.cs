@@ -37,7 +37,7 @@ namespace PrimerParcial_2015_0944.Registros
                  estudiante.nombres = nombrestextBox.Text;
                  estudiante.apellidos = apellidostextBox.Text;
                  estudiante.matricula = matriculatextBox.Text;
-            if (NotasDeCreditoBLL.Guardar(p))
+            if (NotasDeCreditoBLL.Guardar(estudiante))
                     MessageBox.Show("Acaba de Registrar su Nota de Credito");
                 else
                     MessageBox.Show("No se pudo registrar su Nota de Credito");

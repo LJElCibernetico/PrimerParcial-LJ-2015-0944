@@ -17,10 +17,10 @@ namespace PrimerParcial_2015_0944.Entidades
         public int pctBeca;
         public int monto;
 
-        public NotasDeCredito(int notaID, DateTime fecha, int EstudianteID, string observacion, int montoAsignaturas, int pctBeca, int monto)
+        public NotasDeCredito(int notaID, string Fecha, int EstudianteID, string observacion, int montoAsignaturas, int pctBeca, int monto)
         {
             this.notaID = notaID;
-            this.fecha = fecha;
+            this.fecha = Fecha;
             this.estudianteID = EstudianteID;
             this.observacion = observacion;
             this.montoAsignaturas = montoAsignaturas;
@@ -31,7 +31,7 @@ namespace PrimerParcial_2015_0944.Entidades
         public NotasDeCredito()
         {
             this.notaID = 0;
-            this.fecha = DateTime.Now;
+            this.fecha = String.Empty;
             this.estudianteID = 0;
             this.observacion = String.Empty;
             this.montoAsignaturas = 0;

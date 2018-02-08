@@ -143,7 +143,6 @@
             this.buttonRegistrar.Text = "Registrar";
             this.buttonRegistrar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonRegistrar.UseVisualStyleBackColor = true;
-            this.buttonRegistrar.Click += new System.EventHandler(this.buttonRegistrar_Click);
             // 
             // label6
             // 
